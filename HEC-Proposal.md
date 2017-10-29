@@ -4,6 +4,8 @@
 
 by Maximilian Wolfs
 
+![exhibitionprototype](https://maxwolfs.github.io/images/exhibition1.jpg "prototype")
+
 #Accerlationism #sofortness #criticaldesign
 
 > Because today's ultra-fast cycle rates being first above being right. 
