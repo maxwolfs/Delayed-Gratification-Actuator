@@ -60,12 +60,14 @@ With the HEC stipend I would be able to
 2. produce a small batch for pilot testing 
 3. hand it to pilot testers and evaluate the user stories
 
-The aim is to get to a small batch of five prototypes to distribute them to people for pilot testing. For this I want to push to the current prototype to a level where all parts are finalized to iterate the production of more units. With the test phase I want to examine the role of the users and the experience with the object. What does it to them? Which Narratives are being developed? How does the absence of specific material objects shape their relation to them? 
+The aim is to get to a small batch of five prototypes to distribute them to people for pilot testing. 
+For this I want to push to the current prototype to a level where all parts are finalized to iterate the 
+production of more units. With the test phase I want to examine the role of the users and the experience with the object. What does it to them? Which Narratives are being developed? How does the absence of specific material objects shape their relation to them? 
 
 ## Roadmap
 
-Month | Plan 
---- | --- | ---
+Month | ToDo 
+--- | ---
 November | Finding Final Form: PushPush Actuator, Locking, Mechanism, PCB Layout & Parts`
 November | Finding Final Form: PushPush Actuator, Locking, Mechanism, PCB Layout & Parts
 December - January |Production of five prototypes
@@ -73,20 +75,19 @@ February - March | Test Phase and Evaluation
 
 ## Budget
 
-PCB:				100€	
-Parts:
-	Solenoids:		100€
-	Battery:		150€
-	ICs & Parts:		100€
-	Buttons:		80€
-	Display:		50€
-	Mechanics:		200€
-		
-Wood:			150€
-Liquid Metal Coating:	400€
+Position | Amount
+PCB | 100€	
+Solenoids | 100€
+Battery | 150€
+ICs & Parts | 100€
+Buttons | 80€
+Display | 50€
+Mechanics | 200€
+Wood | 150€
+Liquid Metal Coating | 400€
+ |
+TOTAL |	1430€
 
-TOTAL:			1430€
-
-Resources
+## Resources
 
 Development Blog: https://maxwolfs.github.io/
