@@ -1,12 +1,12 @@
 # Application for HEC Sponsorship 2017
 
-## Delayed Gratification Actuator 
+## Delayed Gratification Actuator
+
+Development Blog: https://maxwolfs.github.io/
 
 by Maximilian Wolfs
 
 ![exhibitionprototype](https://maxwolfs.github.io/images/exhibition1.jpg "prototype")
-
-#Accerlationism #sofortness #criticaldesign
 
 > Because today's ultra-fast cycle rates being first above being right. 
 It tells us what's happening in real time, but rarely what it means.
@@ -92,6 +92,8 @@ Wood | 150€
 Liquid Metal Coating | 400€
 **Total** |	**1430€**
 
-## Resources
+## Resources / References
 
 Development Blog: https://maxwolfs.github.io/
+
+Anthony Dunne & Fiona Raby (2001): Design Noir: The Secret Life Of Electronic Objects. Electronic Products as neglected Medium
