@@ -21,7 +21,7 @@ In times of [Sofortness](https://de.wikipedia.org/wiki/Sofortness) the ability o
 used but at the same time more important. What does this to us and our relation to things and how does the ubiquity of
 digital services shape our expectations on  matter, material culture?
 
-The Delayed Gratification Actuator acts is box that acts as a time capsule.
+The Delayed Gratification Actuator is box that acts as a time capsule.
 It is a monolithic product to examine the relation between things - especially their meaning - to their owners.
 It consists of a dumb container to put things in and a smart lid with interface to set the date when the box will
 open in the future. Once it’s closed the control Interface is locked within and the only remaining action from outside
