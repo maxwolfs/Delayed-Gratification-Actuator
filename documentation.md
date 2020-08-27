@@ -42,11 +42,15 @@ The user becomes a protagonist and the designer a co-author of the experience, t
 
 In the following documentation I will describe how I was able to transfer this concept into a working prototype and explain the difficulties and decisions on the way. The second major section is a look at the status quo after the final course exhibition and another jury presentation at the Hochschultage 2018 with the main questions how the initial concept did work out and what could be improved. This led to an application to HEC sponsorship which was also the temporary end result until now and sets the frame to draw a conclusion on the whole project.
 
+
+
 ## Realization – Prototyping and Development
 
 The prototyping and production process involved a lot of going back and forth and produced a lot of enlightening discussions between fellow students, friends and professors. This discursive environment where the studio culture played an important role was the main factor for keeping up the high motivation and was the driving force for continuous improvements with a relatively high frequency of iterations between the other courses and projects. 
 
 In general there were two major threads that were dependent on each other keeping the form always in change and leading to different prototype iterations. This had a huge impact on the technical aspects and made the process highly iterative although easy solutions could have made it much more simple. But they would have also compromised the initial concept in ways that would lead to a standard predictable user experience which make it nothing more than a cheesy 9,99$ one-time fun and tease plastic product. Therefore, it has been very important to strengthen and define the concept throughout the process. It was a delicate thing from the initial presentation in the course and stayed like that through the whole project in discussions, the exhibition, peaking at the Hochschulpreis Jury presentation in 2018 and leading to the temporary end with the 2nd place HEC stipend application.
+
+
 
 ### Form and Appearence – UX and UI
 
@@ -75,6 +79,8 @@ This resulted in two separate parts. A dumb container for storing things and a s
 
 
 ### ![dsas](assets/LoxBox_2.png)
+
+
 
 ### First Prototype – Iteration 1
 
@@ -108,6 +114,8 @@ The program is now in its second state – timer not set. It is now possible to 
 [Link to the Program Code](https://github.com/maxwolfs/Delayed-Gratification-Actuator/tree/master/code/Lox_0.2.ino)
 
 The difficulty was to think algorithmically without a lot of experience in design patterns regarding embedded systems. As with having only experience with reverse engineering in my prior project Crude Data and web development projects, it was hard to research, design and implement the different parts, specifications and libraries to fit it into my concept to become the Delayed Gratification Actuator.
+
+
 
 ### Locking Mechanism
 
@@ -150,6 +158,8 @@ Although It worked perfectly well, I wasn't quite satisfied with the perspective
 
 I also worked a lot in the Institute of Technical Education at the University of Oldenburg because of their new and advanced Laser Cutter which can process materials with 20mm thickness and a nice wood workshop infrastructure to assemble and test the different sizes.
 
+
+
 ### Working Prototype – Iteration 2
 
 Besides the opening mechanism another big challenge was the power management and its accessibility. For this prototype two standard AA battery cells were enough and also had a good availability today and in a mid-term unknown future. 
@@ -159,6 +169,8 @@ Besides the opening mechanism another big challenge was the power management and
 The lift mechanism is working beautifully! Especially the sound of clicking when opening gives you a nice feeling of quality. It actually makes fun like random clicking on pens. But the biggest insight was, it works mechanically. But I was already thinking of removing the suboptimal battery pack solution.
 
 [VIDEO OF ITERATION 2 PROTOTYPE WITH INTERACTION](https://www.youtube.com/watch?v=wyVM1x2QQp0&)
+
+
 
 ### Major Update – Iteration 3
 
@@ -182,6 +194,8 @@ Another topic that came up again was power management. The increase in space and
 
 Due to the fact that the standard was relatively new there were not a lot of components available at mouser. Specifically I needed a power only wired 90° turned pcb socket connector. This was quite common and available for micro USB but not already for the USB-C standard. So I tried to reverse engineer adapters but due to their length and cable chaos it was too hacky to apply it to my design. I decided to wait for the parts to be available to implement it later and use a small reset hole I could access for the upcoming exhibition version.
 
+
+
 ### Exhibition Version – Iteration 4
 
 In order to avoid the DIY laser cut look which pushes the whole box into a maker context I wanted to have at least a surface that supports the aesthetic of an out of time artifact. As mentioned earlier, aluminum and bronze casting was too expensive and imprecise I ended up with a bronze Coating made out of epoxy and real bronze powder, which I applied to the surface. 
@@ -199,6 +213,8 @@ The process was really complicated and time consuming, especially the treatment 
 ![exhibition4](assets/exhibition4.jpg)
 
 [VIDEO OF THE EXHIBITION VERSION IN INTERACTION](https://vimeo.com/238361982)
+
+
 
 
 ## Status Quo – Reality Check
@@ -229,12 +245,16 @@ The user testing in the field should approach the three main question:
 * Which narratives are being developed?
 * How does the absence of specific material objects shape their relation to them?
 
+
+
 ## Conclusion
 
-A strong belief and passion throughout the project kept up the essential momentum and intrinsic motivation for a result – the working materialisation of an idea. The base for this was the people and environment of discussing, precisely the talks with workshop leaders, professors and fellow students in the fantastic studio culture. 
+A strong belief and passion throughout the project kept up the essential momentum and intrinsic motivation for a result – the working materialisation of an idea. The foundation for this was the people and environment of discussing, precisely the talks with workshop leaders, professors and most important my fellow students in the fantastic studio culture.
 
-A project like this needs a lot of different disciplines to come together. From construction methods, material parameters, tools, programming, libraries and electronic parts. It’s complicated and complex. Everything must be exact in order to fit together. Custom solutions require thinking outside the box. The electronics part was especially new for me and had a steep learning curve. And it’s so expensive.
+A project like this needs different disciplines and knowledge to come together. From construction methods, material parameters, tools, programming, libraries to electronic components. It’s complicated and complex. Everything must be exact in order to fit together. Custom solutions require thinking outside the box. The electronics part was especially new for me and had a steep learning curve. I relied heavily on the know-how of others which I had to acquire and apply. Researching a lot of open source libraries and modules like how does an exact time measurement work with embedded systems was super specific and interesting at the same time. Getting strange faces from the shop owners at the local electronics like WIDI-Elektronik who didn't want to sell parts or angry answers on microcontroller.net forum were also nice parts of this endeavour.
 
-An idea can be very good and promising in talks and discussion, but the final implementation still needs exposure to uninitiated people to find out how it works. This experience is very important as it is not important what a creator originally planned how something should work and how people react to it. Once an object is released to the public it lives for its own and for everyone differently. 
+But the most interesting insight occured on the conceptual level: An idea can be very good and promising in talks and discussions, but the final implementation still needs exposure to uninitiated people to find out how it actually works. This experience is very important as it is rather unimportant what a creator originally planned how something should work. An issue which is most common in the arts but also in the world of engineering. If something is interpreted differently by the recipients than it was actually meant or conceptualized by the artist or creator you often hear responses like “it is supposed to work like X” or “it means Y”. But once an object is released to the public it lives for its own and for everyone differently. Therefore, it is important to overcome your self-centeredness as a creator who thinks to own the hegemony of meaning instead of listening and observing carefully how people react in situations of exposure.
 
-Going through that whole process with all ups and downs was very intense. From Sleepless nights at home or in the studio to endless Learnings. This is what makes me want to study this program and continue in developing further projects. The ability to be in an environment and culture which enables one to pursue ideas and make them reality is an invaluable experience that encourages enormously to learn and continue.
+I hope I will be able to continue this project in a not so distant future when time and money are available again to dive in deeper in this exciting process. Going through it until now with all ups and downs was very intense. From sleepless nights at home or in the studio to endless learnings. The intensiveness of this project constitutes my motivation for this program and thus, continue to develop further projects. The ability to be in an environment and culture which enables one to pursue ideas and make them reality is an invaluable experience that encourages enormously to learn and continue.
+
+Thanks to all the people who listened to me and came up with advice and support that made this possible! 
