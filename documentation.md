@@ -3,7 +3,9 @@
 Extended Documentation by Maximilian Wolfs
 
 Course: Digital Artifactual Objections
+
 Lecturer: Prof. Dennis Paul
+
 Term: Winter Term 17/18
 
 ![Ausstellungsexemplar](assets/68747470733a2f2f6d6178776f6c66732e6769746875622e696f2f696d616765732f65786869626974696f6e312e6a7067.jfif)
