@@ -56,7 +56,7 @@ In general there were two major threads that were dependent on each other keepin
 
 How should an object for storing things of meaning for a longer amount of time look like? I started to draw and came to the conclusion that it should have a form that is easily accessible. A simple box that locks. This logic resulted in the unofficial working title of the project – *Lox*. Also the interface should be as simple and self-explanatory as possible that the user experience is a no-brainer and *Lox* only a platform for the magic of the self experiment of delayed gratification. I didn’t want it to be a parental punishment tool for locking away smartphones and toys or a specific self-ascetic box. This could well be special editions but the aim in the beginning was a general purpose tool which serves you for an aesthetically psychological desire experiment. These initial thoughts got questioned soon enough.
 
-![doc-notes-page-01](/Users/mwolfs/dev/Delayed-Gratification-Actuator/assets/doc-notes-page-01.png)
+![doc-notes-page-01](assets/doc-notes-page-01.png)
 
 The material question was an issue throughout the whole project. With the aim of an out of time object that should last and conserve its content forever it was relatively clear that it must be out of metal. Gold or Titanium would be ideal. They are very stable to corrosion, but unrealistic to apply in this project. Bronze seemed to be a good choice as there is a foundry for casting at hfk and its aesthetic would work well for out-of-time aesthetics and also has an art world aura regarding the final course exhibition. Aluminum was in second place as it is significantly cheaper.
 
@@ -66,7 +66,7 @@ How big should it be? What’s the minimum size? For a consumer facing product I
 
 And as for my personal choice I had a strange experience in which I wanted to be able to eat winter cookies in summer, which was not possible due to my lack of objecting to immediate gratification which resulted in eating them already in spring. Therefore, the interior of the container matched exactly two 600g packs of Gewürzspekulatius. This choice should also play a role in the presentation of the project in the first exhibition.
 
-![doc-notes-page-02](/Users/mwolfs/dev/Delayed-Gratification-Actuator/assets/doc-notes-page-02.png)
+![doc-notes-page-02](assets/doc-notes-page-02.png)
 
 The next design decision to make was how the locking mechanism integrates with the material. A classic treasure box consists of two parts, integrated together by at least two hinges. I did some research on the history about treasure boxes and the time where in most cases the lid is ultimately attached to the container. The other option was a lid and a container that are two separate parts, but with a much more complex and demanding solution to find how to integrate the locking mechanism and how to open it.
 
@@ -105,7 +105,7 @@ With a first Rendering, form factor model, a User Experience concept, a sketch f
 
 I started coding with writing pseudo code in my notebook: 
 
-![doc-notes-page-08](/Users/mwolfs/dev/Delayed-Gratification-Actuator/assets/doc-notes-page-08.png)
+![doc-notes-page-08](assets/doc-notes-page-08.png)
 
 The Program has two main cycles which act as two different states. Is the timer set? If it is, it implies the lid is closed and the user can only press the top button. Once it is pressed, an interrupt is fired and the micro controller wakes up from the energy saving deep sleep and connects to the real time clock module and asks the current time to calculate the remaining time to the date set by the user. Then the display shows the remaining time of 20 seconds. When the display is cleared the micro controller goes back to deep sleep. When the celebration date is reached the microcontroller does nothing. Only when the date set by the user is overdue, the timer will be resetted and the code jumps into the celebrate function, which results in a little screen animation and activating the Solenoids. The user is present and can now press down the lid, which opens up. The solenoid will close again but miss their holes, which enables the user to pull out the whole lid and makes the content and interface rotary encoder on the bottom of the lid accessible. 
 
@@ -125,7 +125,7 @@ With the code being able to set a date, show the remaining time and calling the 
 
 In an individual meeting Prof. Dennis Paul suggested a servo motor instead that is driving a gear wheel that’s connected to a four axis mechanism which is pulling in and thus releasing the lock. It is super nice and smart to use only one motor instead of four or two solenoids. 
 
-![doc-notes-page-03](/Users/mwolfs/dev/Delayed-Gratification-Actuator/assets/doc-notes-page-03.png)
+![doc-notes-page-03](assets/doc-notes-page-03.png)
 
 Nevertheless, there were two things which I was not convinced by this solution.
 
@@ -146,7 +146,7 @@ After thinking it over and over I was holding my pen and clicking it while think
 
 I ordered the cheapest ones from IKEA, but unfortunately they were too big. The springs need too much force and the travel of the springs with 80mm was too long to fit in the housing. Custom made solutions were too expensive for a prototype. After thinking for quite a while I thought that it could exploit the mechanism out of pens. I did a few trips to office stores and tested every pen I could find, but there weren’t suitable ones that matched the requirements, mostly the force of momentum.
 
-![doc-notes-page-06](/Users/mwolfs/dev/Delayed-Gratification-Actuator/assets/doc-notes-page-06.png)
+![doc-notes-page-06](assets/doc-notes-page-06.png)
 
 Then I finally found a rotary push encoder from a test package that came with the EC11 encoders. Perfect! Enough force, decent spring range and small form factor.
 
@@ -176,7 +176,7 @@ The lift mechanism is working beautifully! Especially the sound of clicking when
 
 For the next prototype I made again some major improvements. I built two from which one transformed into the final exhibition version. The former solenoids didn't have enough travel to keep the lid locked in its wooden container. I switched to bigger solenoids, which needed more power and were heavier. So I also switched from four to two, which were still enough. But they needed a bigger supply voltage which made it necessary to use four battery cells instead of four and an additional step-up converter which also resulted in a more complex, heavier and more expensive circuit. But it still worked out pretty well with far more solid solenoids and a better working locking mechanism and more satisfying sound.
 
-![doc-notes-page-09](/Users/mwolfs/dev/Delayed-Gratification-Actuator/assets/doc-notes-page-09.png)
+![doc-notes-page-09](assets/doc-notes-page-09.png)
 
 It was also necessary to have thicker sides of the container for the solenoid pins to dive into. All in all the wooden construction had to be built very precisely in order not to tilt with the lid. Wood was now 12mm poplar with the container and 4mm poplar with the lid enclosure.
 
@@ -190,7 +190,7 @@ As the original idea was to make the final exhibition version a bronze cast or a
 
 Another topic that came up again was power management. The increase in space and weight was still manageable for the springs in the opening mechanism but it would be against my initial approach of a smooth surface to have them accessible on the top of the surface. So I needed a rechargeable solution instead of the user changing the batteries from the top. The solution here was an USB-C outlet and a charging circuit. As I already had AA battery packs I switched to long lasting and stable Ni-Mh cells. The USB-C socket also had the advantage that it has nice dimensions that suit the design, look far better than any USB connector and would be quite common in the future. 
 
-![doc-notes-page-10](/Users/mwolfs/dev/Delayed-Gratification-Actuator/assets/doc-notes-page-10.png)
+![doc-notes-page-10](assets/doc-notes-page-10.png)
 
 Due to the fact that the standard was relatively new there were not a lot of components available at mouser. Specifically I needed a power only wired 90° turned pcb socket connector. This was quite common and available for micro USB but not already for the USB-C standard. So I tried to reverse engineer adapters but due to their length and cable chaos it was too hacky to apply it to my design. I decided to wait for the parts to be available to implement it later and use a small reset hole I could access for the upcoming exhibition version.
 
